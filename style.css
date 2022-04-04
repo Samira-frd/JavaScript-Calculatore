@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: #eeeded;
+}
+
+
+.calc{
+    width: 500px;
+    margin: 100px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px #989a9c,
+        -8px -8px 8px #e2e2e2;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+.display{
+    color: rgb(72, 70, 83);
+    text-align: right;
+    font-size: 60px;
+    padding: 20px;
+}
+
+
+
+.keypad-table tr:first-child .key{
+    background-color: #a5a5a5;
+    color: white;
+}
+
+.keypad-table tr:first-child .key:active{
+    background-color: #a5a5a590;
+    color: white;
+}
+
+.keypad-table td:last-child .key{
+    background-color: #ffa45c;
+    color: white;
+}
+
+.keypad-table td:last-child .key:active{
+    background-color: #ffa45ccc;
+    color: white;
+}
+
+
+.key{
+    width: 90px;
+    height: 90px;
+    box-shadow: 3px 3px 3px #b2b4b6,
+        -3px -3px 3px #eeeeee;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -ms-border-radius: 90px;
+    -o-border-radius: 90px;
+    margin: 5px;
+
+}
+
+.key:active{
+    background-color: #b2b4b6;
+}
